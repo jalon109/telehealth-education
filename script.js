@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var TITLE = 'English Learners by Select School Districts in CT, 2018-19';
+  var TITLE = 'Patients like that telepsychiatry saves them a commute, and are comfortable using it from home';
 
   // `false` for vertical column chart, `true` for horizontal bar chart
   var HORIZONTAL = false;
@@ -9,27 +9,42 @@ $(document).ready(function() {
   var STACKED = false;  
   
   // Which column defines 'bucket' names?
-  var LABELS = 'district';  
+  var LABELS = 'questions';  
 
   // For each column representing a data series, define its name and color
   var SERIES = [  
     {
-      column: 'nonlearner',
-      name: 'Non-Learners',
+      column: 'not at all',
+      name: 'Not at All',
       color: 'grey'
     },
     {
-      column: 'learner',
-      name: 'Learners',
+      column: 'a little bit',
+      name: 'A Little Bit',
+      color: 'blue'
+    },
+    {
+      column: 'moderately',
+      name: 'Moderately',
+      color: 'blue'
+    },
+    {
+      column: 'quite a bit',
+      name: 'Quite a Bit',
+      color: 'blue'
+    },
+    {
+      column: 'extremely',
+      name: 'Extremely',
       color: 'blue'
     }
   ];
 
   // x-axis label and label in tooltip
-  var X_AXIS = 'School Districts';
+  var X_AXIS = '';
 
   // y-axis label, label in tooltip
-  var Y_AXIS = 'Number of Enrolled Students';
+  var Y_AXIS = '';
 
   // `true` to show the grid, `false` to hide
   var SHOW_GRID = true; 
