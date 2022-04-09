@@ -41,10 +41,10 @@ $(document).ready(function() {
   ];
 
   // x-axis label and label in tooltip
-  var X_AXIS = '';
+  var X_AXIS = 'Patient Responses';
 
   // y-axis label, label in tooltip
-  var Y_AXIS = '';
+  var Y_AXIS = 'Percentage of Responses';
 
   // `true` to show the grid, `false` to hide
   var SHOW_GRID = true; 
