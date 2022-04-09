@@ -9,7 +9,7 @@ $(document).ready(function() {
   var STACKED = false;  
   
   // Which column defines 'bucket' names?
-  var LABELS = 'patient responses';  
+  var LABELS = 'Patient Responses';  
 
   // For each column representing a data series, define its name and color
   var SERIES = [  
