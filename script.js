@@ -14,27 +14,27 @@ $(document).ready(function() {
   // For each column representing a data series, define its name and color
   var SERIES = [  
     {
-      column: 'not at all',
-      name: 'Not at All',
+      column: 'Not at all',
+      name: 'Not at all',
       color: 'grey'
     },
     {
-      column: 'a little bit',
-      name: 'A Little Bit',
+      column: 'A little bit',
+      name: 'A little bit',
       color: 'blue'
     },
     {
-      column: 'moderately',
+      column: 'Moderately',
       name: 'Moderately',
       color: 'blue'
     },
     {
-      column: 'quite a bit',
-      name: 'Quite a Bit',
+      column: 'Quite a bit',
+      name: 'Quite a bit',
       color: 'blue'
     },
     {
-      column: 'extremely',
+      column: 'Extremely',
       name: 'Extremely',
       color: 'blue'
     }
