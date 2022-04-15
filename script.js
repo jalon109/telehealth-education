@@ -6,7 +6,7 @@ $(document).ready(function() {
   var HORIZONTAL = false;
 
 	// `false` for individual bars, `true` for stacked bars
-  var STACKED = false;  
+  var STACKED = true;  
   
   // Which column defines 'bucket' names?
   var LABELS = 'Patient Responses';  
@@ -16,7 +16,7 @@ $(document).ready(function() {
     {
       column: 'Not at all',
       name: 'Not at all',
-      color: 'grey'
+      color: 'green'
     },
     {
       column: 'A little bit',
@@ -26,17 +26,17 @@ $(document).ready(function() {
     {
       column: 'Moderately',
       name: 'Moderately',
-      color: 'blue'
+      color: 'red'
     },
     {
       column: 'Quite a bit',
       name: 'Quite a bit',
-      color: 'blue'
+      color: 'yellow'
     },
     {
       column: 'Extremely',
       name: 'Extremely',
-      color: 'blue'
+      color: 'orange'
     }
   ];
 
